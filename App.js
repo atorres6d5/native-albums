@@ -13,7 +13,7 @@ export default class App extends React.Component {
   }
   render() {
     return (
-      <View>
+      <View style={{flex:1}}>
           <Header style={styles.textStyles} headerText={this.state.headerText} viewStyles={styles.viewStyles} />
         <AlbumList />
       </View>

@@ -8,7 +8,6 @@ import {
 } from 'react-native';
 
 const Card = ( props ) =>{
-  console.log(props, "here are my props")
   return (
     <View style={styles.card}>
       {props.children}
