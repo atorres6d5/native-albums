@@ -6,11 +6,15 @@ import {
   Text,
   // StyleSheet,
 } from 'react-native';
+import Card from './card.js'
+import CardSection from './cardSection.js'
 
 const AlbumDetail = ({ album }) => (
-  <View>
-    <Text>Title:{album.title}</Text>
-  </View>
+  <Card>
+    <CardSection>
+      <Text>{album.title}</Text>
+    </CardSection>
+  </Card>
 );
 
 export default AlbumDetail;
